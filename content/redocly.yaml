@@ -91,7 +91,7 @@ theme:
           - label: XRPL Jobs
             href: https://jobs.xrpl.org/
             external: true
-          - page: blog/index.md
+          - page: blog/index.page.tsx
           - label: XRPL Grants
             href: https://xrplgrants.org/
             external: true
