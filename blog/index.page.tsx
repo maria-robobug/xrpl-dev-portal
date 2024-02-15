@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState, useRef, useEffect } from "react";
 import { useTranslate, usePageSharedData } from "@portal/hooks";
 import moment from "moment";
-import { BlogFooter } from "@theme/components/Footer/BlogFooter";
+// import { BlogFooter } from "@theme/components/Footer/BlogFooter";
 
 export const frontmatter = {
   seo: {
@@ -235,7 +235,7 @@ export default function Index() {
           </div>
         </section>
       </div>
-      <BlogFooter />
+      {/* <BlogFooter /> */}
     </div>
   );
 }

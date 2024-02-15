@@ -90,7 +90,9 @@
 
 .landing-builtin-bg {
   &::before {
-    content: "";
+    // This is causing the footer links to not be clickable on the /uses and /docs landing pages.
+    // Removing seems to fix the issue.
+    // content: "";
     position: absolute;
     top: 0;
     left: 0;
